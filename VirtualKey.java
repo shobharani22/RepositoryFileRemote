@@ -6,8 +6,8 @@ public class VirtualKey {
 		Scanner sc = new Scanner(System.in);
 
 		// welcome Screen and developer details
-		System.out.println("WELCOME to Virtual Key For Repositories");
-		System.out.println("Developer's Name : Shobharani B S");
+		System.out.println("WELCOME to Virtual keys for file Repositories");
+		System.out.println("Developer's name : Shobharani B S");
 
 		VirtualKey obj =new VirtualKey();
 		char ch;
