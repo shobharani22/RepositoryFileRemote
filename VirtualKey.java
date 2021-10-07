@@ -67,6 +67,9 @@ public class VirtualKey {
 			}
 			System.out.println(" Do you want to continue (Type y[yes] or n[no] ");
 			ch=sc.next().charAt(0);
+			if (ch=='n'||ch=='N') {
+				System.out.println("Thank you for visiting");
+			}
 
 		}while(ch=='Y' || ch=='y');
 	}
